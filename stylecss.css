@@ -1,0 +1,220 @@
+#titulo {
+    color:red;
+}
+
+p.especial{
+    color: rebeccapurple;
+}
+
+p.texto {
+    color: green;
+}
+
+div p {
+    color: brown;
+
+}
+
+div h2, div h3 {
+    color: chartreuse;
+}
+
+/* * {
+    font-size: 24px;
+    color: black;
+} */
+
+/* esto es un comentario */
+
+/*
+
+*/
+
+/*
+
+.color {
+    color: #ff0000;
+}
+
+.color {
+    color: rgb(0,255,255);
+}
+
+*/
+
+
+.color {
+    /* border: 5px black dotted; */
+    
+    /*
+    dotted
+    dashed
+    solid
+    double 
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5mm;
+}
+
+
+#fondo {
+    /* background-color: crimson; */
+    background: #ff0 url(img/index.png) repeat-y center bottom ;
+
+   /*  background-color: rgba(0,0,0,0.3);
+    opacity: 0.3;
+    background-image: url('img/index.png');
+    /* height: 400px; */
+    /* background-size: auto; */
+    /* background-size: conver;
+    background-repeat: no-repeat; */
+    /* backgrund tiene repeat-y and repeat-x */
+  /*   background-position: center top ; */
+
+}
+
+.margen {
+    background-color: chocolate;
+    margin:15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+
+}
+
+.texto{
+
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-decoration:  overline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+
+}
+
+ul {
+    background-color:  cyan;
+        list-style-type: circle; 
+        padding-left: 0; 
+
+    /* list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th{
+    background-color: tomato;
+    color: white;
+    text-align:left ;
+
+
+}
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+
+span {
+    display: block;
+    max-width: 300px;
+    background-color: red;
+}
+
+.inline {
+    display: inline;
+}
+
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px; 
+
+ 
+}
+
+.left {
+    float: left;
+    width: 100px;
+}
+
+
+.right {
+    float: right;
+}
+
+.container {
+    height: 200 px;
+
+}
+
+/* .card {
+    /* border: solid 0px #ddd;
+    border-radius: 5px; */
+/*     margin: 0 ;
+    padding: 10px 0;
+    width: 33,3%; */
+/* }  */
+
+
+.column {
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+
+}
+
+.inline-block {
+    display: inline-block;
+    height: 25px;
+    background-color: red;
+
+}
+
+.center {
+    padding: 50px 0;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
